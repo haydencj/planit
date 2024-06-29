@@ -7,5 +7,9 @@
 </head>
 <body>
   <h1>Welcome to PlanIt!</h1>
+  <form action="/extract-measurements" method="POST" enctype="multipart/form-data">
+    <input type="file" id="floorplan" name="floorplan" accept="image/png, image/jpeg" />
+    <button type="submit">Upload</button>
+  </form>
 </body>
 </html>
